@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Политика конфиденциальности - Shade VPN</title>
+<meta name="description" content="Какие данные собирает приложение Shade VPN и зачем.">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon-32.png" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#0a0e12">
+<style>
+  :root{
+    --bg-0:#0a0e12; --bg-1:#0f151b; --bg-2:#151d26;
+    --line:rgba(255,255,255,.08);
+    --accent:#7be33c; --accent-br:#a6ff5e;
+    --text:#eef3f7; --muted:#8b97a4;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{overflow-x:hidden;width:100%}
+  body{
+    font-family:"Segoe UI",system-ui,-apple-system,sans-serif;
+    color:var(--text);
+    background:linear-gradient(160deg,var(--bg-1),var(--bg-0));
+    background-attachment:fixed;
+    min-height:100vh;
+    -webkit-font-smoothing:antialiased;
+    line-height:1.65;
+  }
+  a{color:var(--accent-br)}
+  .wrap{max-width:760px;margin:0 auto;padding:56px 24px 90px}
+  .brand{display:inline-flex;color:var(--text);text-decoration:none;align-items:center;gap:8px;font-weight:800;letter-spacing:.1em;font-size:14px;margin-bottom:40px}
+  .brand svg{width:22px;height:22px;color:var(--accent)}
+  .brand .v{color:var(--accent)}
+  h1{font-size:clamp(24px,4vw,32px);font-weight:800;margin-bottom:8px}
+  .updated{color:var(--muted);font-size:13px;margin-bottom:36px}
+  h2{font-size:19px;font-weight:700;margin:36px 0 12px;color:var(--accent-br)}
+  p{color:var(--text);font-size:15px;margin-bottom:12px}
+  ul{margin:0 0 12px 22px;color:var(--text);font-size:15px}
+  li{margin-bottom:6px}
+  .card{background:var(--bg-2);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin:18px 0}
+  .muted{color:var(--muted);font-size:13.5px}
+  table{width:100%;border-collapse:collapse;margin:12px 0;font-size:14px}
+  th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line)}
+  th{color:var(--muted);font-weight:600}
+  footer{margin-top:50px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="brand" href="/">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2 4 6v6c0 5 3.4 8 8 10 4.6-2 8-5 8-10V6l-8-4Z" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    SHADE<span class="v">VPN</span>
+  </a>
+
+  <h1>Политика конфиденциальности</h1>
+  <p class="updated">Обновлено 28 сентября 2026 года</p>
+
+  <p>Эта страница объясняет, какие данные собирает и обрабатывает приложение Shade VPN (Windows и Android), зачем это нужно и как эти данные используются. Мы старались написать её простым языком, без лишней юридической воды.</p>
+
+  <h2>Коротко</h2>
+  <div class="card">
+    <ul>
+      <li>Мы не ведём журнал посещённых сайтов и не отслеживаем вашу активность в интернете.</li>
+      <li>Мы передаём на сервер уникальный идентификатор устройства - только для того, чтобы работал лимит устройств на подписке.</li>
+      <li>Мы не продаём и не передаём данные третьим лицам в рекламных целях.</li>
+    </ul>
+  </div>
+
+  <h2>Какие данные мы собираем</h2>
+  <p>Через VPN-сервис (Android VpnService / Windows TUN-адаптер) и в процессе работы приложения мы получаем и обрабатываем следующее:</p>
+  <table>
+    <tr><th>Что</th><th>Зачем</th></tr>
+    <tr><td>Уникальный идентификатор устройства (Android ID на Android, MachineGuid на Windows)</td><td>Контроль лимита количества устройств на одной подписке</td></tr>
+    <tr><td>Модель устройства и версия ОС</td><td>Диагностика проблем совместимости, статистика по платформам</td></tr>
+    <tr><td>IP-адрес устройства при подключении к VPN-серверу</td><td>Необходим технически для установки VPN-туннеля (как для любого VPN-сервиса)</td></tr>
+    <tr><td>Камера - только в момент сканирования QR-кода со ссылкой-подпиской</td><td>Распознавание происходит на самом устройстве. Изображения не сохраняются и никуда не передаются</td></tr>
+  </table>
+
+  <h2>Чего мы не собираем</h2>
+  <ul>
+    <li>Мы не записываем, какие сайты и сервисы вы посещаете через VPN.</li>
+    <li>Мы не читаем содержимое вашего трафика (переписки, файлы, пароли и т.п.).</li>
+    <li>Мы не собираем контакты, фото, сообщения или другие личные файлы с устройства.</li>
+    <li>Мы не используем VPN-сервис для показа рекламы или подмены трафика.</li>
+  </ul>
+
+  <h2>Как передаются данные</h2>
+  <p>Весь интернет-трафик, проходящий через VPN, шифруется на пути от вашего устройства до VPN-сервера. Идентификатор устройства и модель передаются на наш сервер (панель управления подписками) по защищённому соединению (HTTPS/TLS) только в момент подключения к VPN и проверки статуса подписки.</p>
+  <h2>Оплата и обновления</h2>
+  <p>В приложении нет оплаты. Ни в одной из версий - ни на Android, ни на Windows - нельзя купить или продлить подписку, приложение не запрашивает платёжных данных и не передаёт их куда-либо. Управление подпиской происходит полностью вне приложения.</p>
+  <p>Обе версии скачиваются с этого сайта. Приложение само проверяет наличие новой версии и предлагает её установить - обновление ставится только с вашего подтверждения.</p>
+
+  <h2>Хранение данных</h2>
+  <p>Ссылка на вашу подписку и выбранный сервер сохраняются локально на устройстве (в защищённом хранилище приложения), чтобы не запрашивать их заново при каждом запуске. Идентификатор устройства хранится на нашем сервере, пока активна связанная с ним подписка.</p>
+
+  <h2>Ваши права</h2>
+  <p>Вы можете в любой момент удалить приложение - это прекращает передачу любых данных с устройства. По вопросам удаления данных, связанных с вашей подпиской, обращайтесь по контактам ниже.</p>
+
+  <h2>Дети</h2>
+  <p>Shade VPN не предназначен для детей младше 18 лет и не собирает данные, зная, что они принадлежат ребёнку.</p>
+
+  <h2>Изменения политики</h2>
+  <p>Мы можем обновлять эту страницу по мере развития приложения. Дата последнего обновления указана в начале страницы.</p>
+
+  <h2>Контакты</h2>
+  <p>По любым вопросам о данных и конфиденциальности, включая удаление данных: <a href="https://t.me/shade_vpn">t.me/shade_vpn</a></p>
+
+  <footer>
+    <a href="/">← На главную</a>
+  </footer>
+</div>
+</body>
+</html>
