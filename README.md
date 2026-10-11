@@ -75,13 +75,13 @@
 <details>
 <summary><b>Есть версия для Windows 7?</b></summary>
 <br>
-Есть, пока экспериментальная: <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN-Win7-Setup.exe">скачать для Windows 7</a>. Нужна Windows 7 SP1 64-бит с обновлениями. Установщик большой (около 170 МБ), потому что в нём окно приложения для старой системы. Подробности - <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest">в описании релиза</a>.
+Да: <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN-Win7-Setup.exe">скачать для Windows 7</a>. Нужна Windows 7 SP1 64-бит с обновлением KB2999226 (для режима TUN - ещё с поддержкой подписей SHA-2, например KB4474419). Установщик большой (около 170 МБ), потому что в нём окно приложения для старой системы.
 </details>
 
 <details>
 <summary><b>Есть версия для Linux?</b></summary>
 <br>
-Есть, пока экспериментальная: пакеты <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN-Linux.deb">.deb</a> (Ubuntu, Debian, Mint) и <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN-Linux.rpm">.rpm</a> (Fedora). Для туннеля и режима «Запрет» система один раз за сессию спросит пароль администратора. Установка и подробности - <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest">в описании релиза</a>.
+Да: пакеты <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN-Linux.deb">.deb</a> (Ubuntu, Debian, Mint) и <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN-Linux.rpm">.rpm</a> (Fedora). Установка: <code>sudo apt install ./ShadeVPN-Linux.deb</code> или <code>sudo dnf install ./ShadeVPN-Linux.rpm</code>. Для туннеля и режима «Запрет» система один раз за сессию спросит пароль администратора.
 </details>
 
 <details>
@@ -92,9 +92,9 @@
 
 ## 💻 Требования
 
-- Windows 10 или 11, 64-бит (или Windows 7 SP1, 64-бит, - экспериментальная версия)
+- Windows 10 или 11, 64-бит (или Windows 7 SP1, 64-бит)
 - около 100 МБ свободного места (для версии под Windows 7 - около 600 МБ)
-- Linux: x86_64 с polkit, nftables и iproute2 (ставятся вместе с пакетом) - экспериментальная версия
+- Linux: x86_64 с polkit, nftables и iproute2 (ставятся вместе с пакетом)
 
 ## 💬 Поддержка
 
