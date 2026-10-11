@@ -68,6 +68,12 @@
 </details>
 
 <details>
+<summary><b>Есть версия для Windows 7?</b></summary>
+<br>
+Есть, пока экспериментальная: <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/tag/v1.3.1-win7">Shade VPN 1.3.1 для Windows 7</a>. Нужна Windows 7 SP1 64-бит с обновлениями. Установщик большой (около 170 МБ), потому что в нём окно приложения для старой системы.
+</details>
+
+<details>
 <summary><b>Есть версия для телефона?</b></summary>
 <br>
 Да, для Android: скачай файл <code>ShadeVPN.apk</code> в разделе <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest">последнего релиза</a> и установи (Android 7.0 и новее, 64-битные телефоны - это почти все современные). Скоро приложение появится и в Google Play.
