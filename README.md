@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest"><img src="https://img.shields.io/github/v/release/MAGAMxx/shade-vpn-releases?style=flat-square&label=%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F&color=7BE33C&labelColor=1a211c" alt="версия"></a>
-  <img src="https://img.shields.io/badge/Windows-7%20%7C%2010%20%7C%2011-7BE33C?style=flat-square&labelColor=1a211c" alt="Windows 7 | 10 | 11">
-  <a href="https://t.me/shade_vpn"><img src="https://img.shields.io/badge/Telegram-%40shade__vpn-7BE33C?style=flat-square&logo=telegram&logoColor=white&labelColor=1a211c" alt="Telegram"></a>
+  <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest"><img src="https://img.shields.io/github/v/release/MAGAMxx/shade-vpn-releases?style=flat-square&label=%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F&color=8BEA4A&labelColor=1a211c" alt="версия"></a>
+  <img src="https://img.shields.io/badge/Windows-7%20%7C%2010%20%7C%2011-8BEA4A?style=flat-square&labelColor=1a211c" alt="Windows 7 | 10 | 11">
+  <a href="https://t.me/shade_vpn"><img src="https://img.shields.io/badge/Telegram-%40shade__vpn-8BEA4A?style=flat-square&logo=telegram&logoColor=white&labelColor=1a211c" alt="Telegram"></a>
 </p>
 
 <p align="center">
