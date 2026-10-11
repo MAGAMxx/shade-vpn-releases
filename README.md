@@ -5,12 +5,17 @@
 <p align="center">
   <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN-Setup.exe"><img src="assets/release-1.3.1/btn-windows.png" alt="Windows 10 и 11" width="320"></a>
   <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN-Win7-Setup.exe"><img src="assets/release-1.3.1/btn-win7.png" alt="Windows 7" width="320"></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN.apk"><img src="assets/release-1.3.1/btn-android.png" alt="Android" width="320"></a>
+  <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN-Linux.deb"><img src="assets/release-1.3.1/btn-linux.png" alt="Linux" width="320"></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest"><img src="https://img.shields.io/github/v/release/MAGAMxx/shade-vpn-releases?style=flat-square&label=%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F&color=8BEA4A&labelColor=1a211c" alt="версия"></a>
   <img src="https://img.shields.io/badge/Windows-7%20%7C%2010%20%7C%2011-8BEA4A?style=flat-square&labelColor=1a211c" alt="Windows 7 | 10 | 11">
+  <img src="https://img.shields.io/badge/Linux-deb%20%7C%20rpm-8BEA4A?style=flat-square&labelColor=1a211c" alt="Linux deb | rpm">
   <a href="https://t.me/shade_vpn"><img src="https://img.shields.io/badge/Telegram-%40shade__vpn-8BEA4A?style=flat-square&logo=telegram&logoColor=white&labelColor=1a211c" alt="Telegram"></a>
 </p>
 
@@ -74,6 +79,12 @@
 </details>
 
 <details>
+<summary><b>Есть версия для Linux?</b></summary>
+<br>
+Есть, пока экспериментальная: пакеты <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN-Linux.deb">.deb</a> (Ubuntu, Debian, Mint) и <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN-Linux.rpm">.rpm</a> (Fedora). Для туннеля и режима «Запрет» система один раз за сессию спросит пароль администратора. Установка и подробности - <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest">в описании релиза</a>.
+</details>
+
+<details>
 <summary><b>Есть версия для телефона?</b></summary>
 <br>
 Да, для Android: скачай файл <code>ShadeVPN.apk</code> в разделе <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest">последнего релиза</a> и установи (Android 7.0 и новее, 64-битные телефоны - это почти все современные). Скоро приложение появится и в Google Play.
@@ -83,6 +94,7 @@
 
 - Windows 10 или 11, 64-бит (или Windows 7 SP1, 64-бит, - экспериментальная версия)
 - около 100 МБ свободного места (для версии под Windows 7 - около 600 МБ)
+- Linux: x86_64 с polkit, nftables и iproute2 (ставятся вместе с пакетом) - экспериментальная версия
 
 ## 💬 Поддержка
 
