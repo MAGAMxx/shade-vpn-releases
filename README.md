@@ -3,14 +3,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN-Setup.exe">
-    <img src="assets/download.png" alt="Скачать для Windows" width="360">
-  </a>
+  <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN-Setup.exe"><img src="assets/release-1.3.1/btn-windows.png" alt="Windows 10 и 11" width="320"></a>
+  <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN-Win7-Setup.exe"><img src="assets/release-1.3.1/btn-win7.png" alt="Windows 7" width="320"></a>
+  <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN.apk"><img src="assets/release-1.3.1/btn-android.png" alt="Android" width="320"></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest"><img src="https://img.shields.io/github/v/release/MAGAMxx/shade-vpn-releases?style=flat-square&label=%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F&color=7BE33C&labelColor=1a211c" alt="версия"></a>
-  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-7BE33C?style=flat-square&labelColor=1a211c" alt="Windows 10 | 11">
+  <img src="https://img.shields.io/badge/Windows-7%20%7C%2010%20%7C%2011-7BE33C?style=flat-square&labelColor=1a211c" alt="Windows 7 | 10 | 11">
   <a href="https://t.me/shade_vpn"><img src="https://img.shields.io/badge/Telegram-%40shade__vpn-7BE33C?style=flat-square&logo=telegram&logoColor=white&labelColor=1a211c" alt="Telegram"></a>
 </p>
 
@@ -70,7 +70,7 @@
 <details>
 <summary><b>Есть версия для Windows 7?</b></summary>
 <br>
-Есть, пока экспериментальная: <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/tag/v1.3.1-win7">Shade VPN 1.3.1 для Windows 7</a>. Нужна Windows 7 SP1 64-бит с обновлениями. Установщик большой (около 170 МБ), потому что в нём окно приложения для старой системы.
+Есть, пока экспериментальная: <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN-Win7-Setup.exe">скачать для Windows 7</a>. Нужна Windows 7 SP1 64-бит с обновлениями. Установщик большой (около 170 МБ), потому что в нём окно приложения для старой системы. Подробности - <a href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest">в описании релиза</a>.
 </details>
 
 <details>
@@ -81,8 +81,8 @@
 
 ## 💻 Требования
 
-- Windows 10 или 11, 64-бит
-- около 100 МБ свободного места
+- Windows 10 или 11, 64-бит (или Windows 7 SP1, 64-бит, - экспериментальная версия)
+- около 100 МБ свободного места (для версии под Windows 7 - около 600 МБ)
 
 ## 💬 Поддержка
 
