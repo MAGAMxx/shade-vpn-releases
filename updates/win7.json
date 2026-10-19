@@ -1,11 +1,11 @@
 {
-    "version":  "1.3.1",
-    "notes":  "Версия для Windows 7.",
-    "pub_date":  "2026-10-11T16:47:20Z",
-    "platforms":  {
-                      "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVDBNQW1Yak1qdEFoTVgrVnNEYzljVndkenY2TGpoamdsNVFZdzMrRHJDL2ZudXlOK2FMUHFDNEVxeFRKZnppajc1QktXeDVGQVIxVVcyYnlFK3hzRGpDQzl0Y0lqb3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNzM3MTU0CWZpbGU6U2hhZGUgVlBOXzEuMy4xX3g2NC1zZXR1cC5leGUKQlNHVnF4MDBJZnpVQjFtL2lHL1RteFZTL0tuVzBkVlorVzcxM2k1WWlQSUo5V2lNR0k4V3ViYktPdFpqUWk3aEFzd0hVNDdsblJ4OW5jenRBd1Q5QWc9PQo=",
-                                             "url":  "https://github.com/MAGAMxx/shade-vpn-releases/releases/download/v1.3.1/ShadeVPN-Win7-Setup.exe"
-                                         }
-                  }
+    "version": "2.0.2",
+    "notes": "Версия 2.0 для Windows 7: новый интерфейс, несколько подписок, свои правила, исправления «Напрямую».",
+    "pub_date": "2026-10-19T17:16:16Z",
+    "platforms": {
+        "windows-x86_64": {
+            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVDBNQW1Yak1qdEZBUTBOK2d1aHVtRzF0aHNNa2o5dVhpeEM3UWxGSWJGc3lxMFRnSml3VjdhUXBPS05ZQ2Z0cjc1T1FrM082Vlp5Y0lpRGZET2o0azRXd0FFQktESmdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDMwMTA4CWZpbGU6U2hhZGUgVlBOXzIuMC4yX3g2NC1zZXR1cC5leGUKaktDNWk1ZnJGYnRuTWJIOVN3MFJhV2tySGloNlVaWTJzbGwzcEMyWC8xVy9HQUhGc2Z6UnlyeGhDcDl6dGNGOURuY2taYWE1WnBhWUZ3d3VrTkhmRGc9PQo=",
+            "url": "https://github.com/MAGAMxx/shade-vpn-releases/releases/download/v2.0.2/ShadeVPN-Win7-Setup.exe"
+        }
+    }
 }
