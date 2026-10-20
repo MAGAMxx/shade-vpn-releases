@@ -1,11 +1,11 @@
 {
-    "version": "2.0.2",
-    "notes": "Версия 2.0 для Windows 7: новый интерфейс, несколько подписок, свои правила, исправления «Напрямую».",
-    "pub_date": "2026-10-19T17:16:16Z",
-    "platforms": {
-        "windows-x86_64": {
-            "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVDBNQW1Yak1qdEZBUTBOK2d1aHVtRzF0aHNNa2o5dVhpeEM3UWxGSWJGc3lxMFRnSml3VjdhUXBPS05ZQ2Z0cjc1T1FrM082Vlp5Y0lpRGZET2o0azRXd0FFQktESmdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDMwMTA4CWZpbGU6U2hhZGUgVlBOXzIuMC4yX3g2NC1zZXR1cC5leGUKaktDNWk1ZnJGYnRuTWJIOVN3MFJhV2tySGloNlVaWTJzbGwzcEMyWC8xVy9HQUhGc2Z6UnlyeGhDcDl6dGNGOURuY2taYWE1WnBhWUZ3d3VrTkhmRGc9PQo=",
-            "url": "https://github.com/MAGAMxx/shade-vpn-releases/releases/download/v2.0.2/ShadeVPN-Win7-Setup.exe"
-        }
+  "version": "2.0.3",
+  "notes": "Исправлено подключение на некоторых ПК: ошибка «файл уже существует» и ожидание 15 секунд при первом подключении.",
+  "pub_date": "2026-10-20T20:20:10Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVDBNQW1Yak1qdE5IWHZhTFZBS2pCdjRQUzVQQk8xSy9EWDk1R2tGTEE3Z0taQkp3Vlcvbm9GdFh5Zk84UWlTSVIvMWVPUENicTBuZTU0YVlOTDJhTkRIOUVYT1h6bGdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNTI3NTg5CWZpbGU6U2hhZGUgVlBOXzIuMC4zX3g2NC1zZXR1cC5leGUKTnlwS0I4aDEzUndyRUxzZVdmT1k3bG5zd1RSWEJ6djBMYVlUZGZPVGZPbHBHUzRRN1lOWU9EOXVTMDBITUNxSFI2U3ZkU1E5ckRESldCZ3ZvLzhOQ0E9PQo=",
+      "url": "https://github.com/MAGAMxx/shade-vpn-releases/releases/download/v2.0.3/ShadeVPN-Win7-Setup.exe"
     }
+  }
 }
