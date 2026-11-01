@@ -123,7 +123,7 @@ footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--line);color:v
     <h1>SHADE</h1>
     <div class="tbl"><table class="dl">
       <tr><th>Android</th><th>Windows</th><th>Linux</th><th>iOS</th></tr>
-      <tr><td><a href="https://play.google.com/store/apps/details?id=site.shadevpn.app" target="_blank" rel="noopener">Google Play</a></td><td><a class="d" href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN-Setup.exe">Windows 10/11</a><a class="d" href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN-Win7-Setup.exe">Windows 7</a></td><td><a class="d" href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN-Linux.deb">.deb</a><a class="d" href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN-Linux.rpm">.rpm</a></td><td class="soon">Скоро</td></tr>
+      <tr><td><a class="d" href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN.apk">.apk</a></td><td><a class="d" href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN-Setup.exe">Windows 10/11</a><a class="d" href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN-Win7-Setup.exe">Windows 7</a></td><td><a class="d" href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN-Linux.deb">.deb</a><a class="d" href="https://github.com/MAGAMxx/shade-vpn-releases/releases/latest/download/ShadeVPN-Linux.rpm">.rpm</a></td><td class="soon">Скоро</td></tr>
     </table></div>
     <p><b>SHADE</b> - приложение для подключения к вашим серверам через ядро <b>Xray</b>.</p>
     <p>Доступно для Android, Windows и Linux. Версия для iOS готовится.</p>
@@ -141,10 +141,9 @@ footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--line);color:v
 </div>
 
 <script>
-const PLAY = "https://play.google.com/store/apps/details?id=site.shadevpn.app";
 const GH = "https://github.com/MAGAMxx/shade-vpn-releases/releases/latest";
 const REL = GH + "/download/";
-const WIN = REL + "ShadeVPN-Setup.exe", WIN7 = REL + "ShadeVPN-Win7-Setup.exe", DEB = REL + "ShadeVPN-Linux.deb", RPM = REL + "ShadeVPN-Linux.rpm";
+const APK = REL + "ShadeVPN.apk", WIN = REL + "ShadeVPN-Setup.exe", WIN7 = REL + "ShadeVPN-Win7-Setup.exe", DEB = REL + "ShadeVPN-Linux.deb", RPM = REL + "ShadeVPN-Linux.rpm";
 const EMAIL = "support@shadevpn.site";
 const TG = "https://t.me/shade_vpn";
 const UPD = { ru: "Обновлено 11 октября 2026", en: "Last updated October 11, 2026" };
@@ -156,7 +155,7 @@ ru: {
     <h1>SHADE</h1>
     <div class="tbl"><table class="dl">
       <tr><th>Android</th><th>Windows</th><th>Linux</th><th>iOS</th></tr>
-      <tr><td><a href="${PLAY}" target="_blank" rel="noopener">Google Play</a></td><td><a class="d" href="${WIN}">Windows 10/11</a><a class="d" href="${WIN7}">Windows 7</a></td><td><a class="d" href="${DEB}">.deb</a><a class="d" href="${RPM}">.rpm</a></td><td class="soon">Скоро</td></tr>
+      <tr><td><a class="d" href="${APK}">.apk</a></td><td><a class="d" href="${WIN}">Windows 10/11</a><a class="d" href="${WIN7}">Windows 7</a></td><td><a class="d" href="${DEB}">.deb</a><a class="d" href="${RPM}">.rpm</a></td><td class="soon">Скоро</td></tr>
     </table></div>
     <p><b>SHADE</b> - приложение для подключения к вашим серверам через ядро <b>Xray</b>.</p>
     <p>Доступно для Android, Windows и Linux. Версия для iOS готовится.</p>
@@ -223,7 +222,7 @@ en: {
     <h1>SHADE</h1>
     <div class="tbl"><table class="dl">
       <tr><th>Android</th><th>Windows</th><th>Linux</th><th>iOS</th></tr>
-      <tr><td><a href="${PLAY}" target="_blank" rel="noopener">Google Play</a></td><td><a class="d" href="${WIN}">Windows 10/11</a><a class="d" href="${WIN7}">Windows 7</a></td><td><a class="d" href="${DEB}">.deb</a><a class="d" href="${RPM}">.rpm</a></td><td class="soon">Coming soon</td></tr>
+      <tr><td><a class="d" href="${APK}">.apk</a></td><td><a class="d" href="${WIN}">Windows 10/11</a><a class="d" href="${WIN7}">Windows 7</a></td><td><a class="d" href="${DEB}">.deb</a><a class="d" href="${RPM}">.rpm</a></td><td class="soon">Coming soon</td></tr>
     </table></div>
     <p><b>SHADE</b> is an app for connecting to your own servers through the <b>Xray</b> core.</p>
     <p>Available for Android, Windows and Linux. The iOS version is in progress.</p>
@@ -299,7 +298,7 @@ function render(){
   const L = T[lang], p = page();
   document.documentElement.lang = lang;
   document.getElementById("get").innerHTML = `
-    <a href="${PLAY}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 3.5v17l9-8.5zM14.2 13.2l2.6 2.4-10.3 5.9zM6.5 2.5l10.3 5.9-2.6 2.4zM18 9.1l3 1.7c.8.5.8 1.9 0 2.4l-3 1.7-2.8-2.4z"/></svg><span>Google Play<small>Android</small></span></a>
+    <a href="${APK}"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 9.5l1.8-3.2a.6.6 0 0 0-1.1-.6l-1.9 3.2a11.4 11.4 0 0 0-8.8 0L5.7 5.7a.6.6 0 0 0-1.1.6l1.8 3.2A10.8 10.8 0 0 0 1 18h22a10.8 10.8 0 0 0-5.4-8.5zM7 15.3a1.3 1.3 0 1 1 0-2.6 1.3 1.3 0 0 1 0 2.6zm10 0a1.3 1.3 0 1 1 0-2.6 1.3 1.3 0 0 1 0 2.6z"/></svg><span>Android<small>.apk</small></span></a>
     <a href="${WIN}"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 5.5 10 4.5v7H3zM11 4.3 21 3v8.5H11zM3 12.5h7v7L3 18.5zM11 12.5h10V21l-10-1.3z"/></svg><span>Windows 10/11<small>.exe</small></span></a>
     <a href="${WIN7}"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 5.5 10 4.5v7H3zM11 4.3 21 3v8.5H11zM3 12.5h7v7L3 18.5zM11 12.5h10V21l-10-1.3z"/></svg><span>Windows 7<small>.exe</small></span></a>
     <a href="${DEB}"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C9.8 2 8.5 3.9 8.5 6.3c0 1.2-.7 2.2-1.6 3.6C5.8 11.6 5 13.3 5 15.5c0 1.1.3 2 .8 2.7-.5.4-1.3.9-1.3 1.7 0 1.1 1.6 1.6 3 1.6h1.2c.6.7 1.5 1 2.3 1s1.7-.3 2.3-1H15c1.4 0 3-.5 3-1.6 0-.8-.8-1.3-1.3-1.7.5-.7.8-1.6.8-2.7 0-2.2-.8-3.9-1.9-5.6-.9-1.4-1.6-2.4-1.6-3.6C15.5 3.9 14.2 2 12 2z"/><circle cx="10.4" cy="6.4" r=".9" fill="var(--side)"/><circle cx="13.6" cy="6.4" r=".9" fill="var(--side)"/></svg><span>Linux<small>.deb · Ubuntu, Debian</small></span></a>
